@@ -24,3 +24,25 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+.transparent-modal {
+    --background: #0000005c;
+
+    // &::part(content) {
+    //     backdrop-filter: blur(12px);
+    // }
+
+    ion-content {
+        --background: transparent;
+    }
+    ion-item{
+        --background: transparent;
+    }
+    ion-footer{
+        --background: transparent;
+    }
+    ion-toolbar{
+        --background: transparent;
+    }
+}
+
